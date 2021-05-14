@@ -1,13 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter  as Router, Switch, Route, Link } from "react-router-dom";
 
 // import screens
 import LoginScreen from "../screens/LoginScreen/LoginScreen";
 import HomeScreen from "../screens/HomeScreen/HomeScreen";
+import NotFoundScreen from "../screens/NotFoundScreen/NotFoundScreen";
 
 const AppNavigation = () => {
   return (
-    <Router>
+    <Router basename="/react-demos">
       <Switch>
         <Route exact path="/">
           <LoginScreen />
@@ -15,6 +16,9 @@ const AppNavigation = () => {
         <Route path="/home">
           <HomeScreen />
         </Route>
+        <Route path="*">
+            <NotFoundScreen /> 
+          </Route>
       </Switch>
     </Router>
   );
