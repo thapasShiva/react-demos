@@ -24,7 +24,7 @@ export const HomeCardData = [
         cardDesc :"LoremExercitation elit adipisicing in laboris. Laborum magna amet culpa reprehenderit anim cillum. Amet eu ad consequat dolor dolor reprehenderit.",
     },
     {
-        cardTitle :"Pages",
+        cardTitle :"Others",
         cardSubtitle :"Dashboard Subtitle",
         bgColor:"white",
         cardDesc :"LoremExercitation elit adipisicing in laboris. Laborum magna amet culpa reprehenderit anim cillum. Amet eu ad consequat dolor dolor reprehenderit.",
