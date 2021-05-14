@@ -1,0 +1,15 @@
+$theme-colors: (
+    "primary": #16163E,
+    "secondary": #84849C,
+   
+);
+
+$body-bg: #F3F3FB; 
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.login-background {
+    background-color: white;
+    height: 460px;
+    width: 300px;
+} 
